@@ -20,10 +20,13 @@ public class Ejecutable02 {
         h1.establecerNombre("Vaca Ortíz");
         h2.establecerNombre("Militar");
         h3.establecerNombre("Manuel IM");
-        
+        /*
+         Al crear un objeto todos los atributos del mismo se crean con un valor
+        default, el sout lo que hace es imprimir con los valores que tenga        
+        */
         System.out.printf("%s - %d - %.2f\n", h1.obtenerNombre(),
                 h1.obtenerNumeroCamas(), h1.obtenerPresupuesto());
-        
+        /*
         h1.establecerNombre("Hospital Vaca Ortíz");
         
         System.out.printf("%s - %d - %.2f\n", h1.obtenerNombre(),
@@ -33,7 +36,7 @@ public class Ejecutable02 {
         
         System.out.printf("%s - %d - %.2f\n", h2.obtenerNombre(),
                 h2.obtenerNumeroCamas(), h2.obtenerPresupuesto());
-        
+        */
         
     }
 }

@@ -5,8 +5,15 @@
  */
 package manejoclases02;
 
+
 public class Hospital {
     private String nombre;
     private int numeroCamas;
     private double presupuesto;
+    public void establecerNombre(String newName){
+        nombre=newName;
+    }
+    public String obtenerNombre(){
+    return nombre;
+    }
 }
