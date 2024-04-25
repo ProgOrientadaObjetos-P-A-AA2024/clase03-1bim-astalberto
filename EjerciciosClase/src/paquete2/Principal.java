@@ -12,11 +12,28 @@ import paquete1.InstitucionEducativa;
  * @author reroes
  */
 public class Principal {
+
     public static void main(String[] args) {
         /*Un objeto de tipo InstitucionEducativa*/
-        
+
         InstitucionEducativa i1 = new InstitucionEducativa();
-        
-        // System.out.printf("%s     ", i1.);
+        String nombre = "Unidad Educativa Fiscomisional 'Juan XXIII'";
+        String tipo = "Fiscomisional";
+        int nAlumnos = 200;
+        int nDocentes = 10;
+        int nSedes = 2;
+
+        i1.establecerNombre(nombre);
+        i1.establecerTipoInstitucion(tipo);
+        i1.establecerNumeroAlumnos(nAlumnos);
+        i1.establecerNumeroDocentes(nDocentes);
+        i1.establecerNumeroSedes(nSedes);
+
+        System.out.printf("Nombre: %s\nTipo Institucion: %s\nNumero Alumnos: %d\nNumero Docentes: %d\nNumero de Sedes: %d\n",
+                i1.obtenerNombre(),
+                i1.obtenerTipoInstitucion(),
+                i1.obtenerNumeroAlumnos(),
+                i1.obtenerNumeroDocentes(),
+                i1.obtenerNumeroSedes());
     }
 }
