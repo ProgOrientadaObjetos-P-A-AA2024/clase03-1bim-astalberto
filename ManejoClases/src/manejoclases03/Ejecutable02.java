@@ -22,7 +22,8 @@ public class Ejecutable02 {
         h3.establecerNombre("Manuel IM");
         /*
          Al crear un objeto todos los atributos del mismo se crean con un valor
-        default, el sout lo que hace es imprimir con los valores que tenga        
+        default, el sout lo que hace es imprimir con los valores que devuelva
+        la funcion obtenerNombre, obtenerNumeroCamas, obtenerPresupuesto
         */
         System.out.printf("%s - %d - %.2f\n", h1.obtenerNombre(),
                 h1.obtenerNumeroCamas(), h1.obtenerPresupuesto());
