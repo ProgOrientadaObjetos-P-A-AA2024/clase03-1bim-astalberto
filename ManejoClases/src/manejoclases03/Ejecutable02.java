@@ -23,7 +23,7 @@ public class Ejecutable02 {
         /*
          Al crear un objeto todos los atributos del mismo se crean con un valor
         default, el sout lo que hace es imprimir con los valores que devuelva
-        la funcion obtenerNombre, obtenerNumeroCamas, obtenerPresupuesto
+        la funcion obtenerNombre, obtenerNumeroCamas, obtenerPresupueso
         */
         System.out.printf("%s - %d - %.2f\n", h1.obtenerNombre(),
                 h1.obtenerNumeroCamas(), h1.obtenerPresupuesto());
